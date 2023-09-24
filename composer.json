@@ -1,0 +1,19 @@
+{
+    "name": "daniel/web-scraping",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Lima",
+            "email": "danielrlima2015@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^6.3",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
